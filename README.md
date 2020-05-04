@@ -1,6 +1,6 @@
 # MotorPWM
 ### Overview
-This is C code used to create a PWM drive for a stepper motor. A motor is controlled using dipswitches. One switch turns the motor on and off. A second switch changes speed. This also includes an LED that flashes at different speeds. This project was used to demonstrate the use of an Enhanced Capture Timer handler in a Task Scheduler. This code was created using Code Warrior. 
+This is C code used to create a PWM drive for a stepper motor. A motor is controlled using dipswitches. One switch turns the motor on and off. A second switch changes speed. This also includes an LED that flashes at different speeds. This project was used to demonstrate the use of an Enhanced Capture Timer handler in a Task Scheduler. This code was created using Code Warrior IDE. This was a project for ECET 309, Advanced Embedded Micro-Controllers.
 
 ### Hardware
 
@@ -12,4 +12,4 @@ This is C code used to create a PWM drive for a stepper motor. A motor is contro
 
 **Sources/main.C** - Initiallizes the micro-controller, then a task scheduler runs operation
 
-**Sources/functions.C** - Contains the functions used to create the Task Scheduler, checks the dipswitches, and run the stepper motor  
+**Sources/functions.C** - Contains the functions used to create the Task Scheduler, checks the dipswitches, and runs the stepper motor  
