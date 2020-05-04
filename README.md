@@ -4,12 +4,13 @@ This is C code used to create a PWM drive for a stepper motor. A motor is contro
 
 ### Hardware
 
-- **NXP MC9S12XEP100 Dev Kit** - This dev kit includes the MC9S12XEP100 Micro-Controller, JTAG debugger and stepper motor on a single board
+**NXP MC9S12XEP100 Dev Kit** - This dev kit includes the MC9S12XEP100 Micro-Controller, JTAG debugger and stepper motor on a single board
+<img src="images/stepmotor.JPG" width="500">
 
 ### Files of Intrest
 
-**Sourcess/ECT.C** - Create an enhanced capture timer 
+**ECET309_Lab9/Sources/ECT.C** - Create an enhanced capture timer 
 
-**Sources/main.C** - Initiallizes the micro-controller, then a task scheduler runs operation
+**ECET309_Lab9/Sources/main.C** - Initiallizes the micro-controller, then a task scheduler runs operation
 
-**Sources/functions.C** - Contains the functions used to create the Task Scheduler, checks the dipswitches, and runs the stepper motor  
+**ECET309_Lab9/Sources/functions.C** - Contains the functions used to create the Task Scheduler, checks the dipswitches, and runs the stepper motor  
