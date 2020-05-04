@@ -5,7 +5,8 @@ This is C code used to create a PWM drive for a stepper motor. A motor is contro
 ### Hardware
 
 **NXP MC9S12XEP100 Dev Kit** - This dev kit includes the MC9S12XEP100 Micro-Controller, JTAG debugger and stepper motor on a single board
-<img src="images/stepmotor.JPG" width="500">
+
+<img src="images/stepmotor.jpg" width="500">
 
 ### Files of Intrest
 
