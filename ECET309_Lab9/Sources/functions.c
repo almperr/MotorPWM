@@ -2,7 +2,7 @@
 //Class:ECET 309
 //Assignment:Lab 9 - Taskscheduler 
 //Date:3/20/2018
-//File Description: This file is for most functions
+//File Description: Contains the functions used to create the Task Scheduler, checks the dipswitches, and runs the stepper motor depending on set speed
 
 #include <hidef.h>      /* common defines and macros */
 #include "derivative.h"      /* derivative-specific definitions */
