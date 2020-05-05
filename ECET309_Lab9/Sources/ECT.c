@@ -52,12 +52,12 @@ void interrupt ECTOutCompHandler(void)         //this function is the ECT output
  
  //Motor Tasks
  
- if((interruptCount % 2500)==0)                //this will be used to checck the speed every 5 seconds 
+ if((interruptCount % 2500)==0)                //this will be used to check the speed every 5 seconds 
  {
    checkSpeed++;
  }
  
- if((interruptCount % 1)==0)                   //this will activate run motor every cycle. This will help generate the pusle for the motor. 
+ if((interruptCount % 1)==0)                   //this will activate run motor every cycle. This will help generate the pulse for the motor. 
  {
    runMotor++;
  }
