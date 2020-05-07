@@ -2,7 +2,8 @@
 //Class:ECET 309
 //Assignment:Lab 9 - Task Scheduler  
 //Date:3/20/2018
-//File Description: This file is the Enhanced Capture Timer file. 
+//File Description: This file is the Enhanced Capture Timer file. This is everything needed to initiallize the ECT and to operate in an interrupt service routine
+
 #include <hidef.h>      /* common defines and macros */
 #include "derivative.h"      /* derivative-specific definitions */
 #include "protos.h"          //includes the protos.h file
@@ -57,7 +58,7 @@ void interrupt ECTOutCompHandler(void)         //this function is the ECT output
    checkSpeed++;
  }
  
- if((interruptCount % 1)==0)                   //this will activate run motor every cycle. This will help generate the pulse for the motor. 
+ if((interruptCount % 1)==0)                   //this will activate run motor every cycle. This will generate the pulse for the motor. 
  {
    runMotor++;
  }
